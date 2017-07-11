@@ -103,7 +103,7 @@ div {
 }
 
 .story {
-  display: block;
+  /*display: block;*/
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -116,19 +116,27 @@ div {
 }
 
 .orca-content {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/img-story-2.png");
   background-repeat: repeat;
   background-size: auto;
   min-height: 300px;
+  justify-content: center;
 }
 
 .burger-content {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/img-story-3.png");
   background-position: left;
   min-height: 300px;
+  justify-content: center;
 }
 
 .cat-content {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/img-story-1.png");
   background-position: center;
   min-height: 300px;
@@ -136,6 +144,8 @@ div {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/img-story-main.png");
   background-position: center;
   min-height: 300px;
@@ -145,6 +155,7 @@ div {
 .main-headline {
     font-size: 40px;
     justify-content: center;
+    align-items: center;
 }
 
 .article-text {
@@ -198,6 +209,7 @@ div {
   color: white;
   text-align: center;
   justify-content: center;
+
 
 }
 
